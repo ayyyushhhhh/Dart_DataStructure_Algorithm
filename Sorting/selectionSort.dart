@@ -4,7 +4,7 @@ void main() {
 }
 
 List<int> selectionSort(List<int> input) {
-  for (int i = 0; i < input.length; i++) {
+  for (int i = 0; i < input.length - 1; i++) {
     int min = i;
     int temp = input[min];
     for (int j = i + 1; j < input.length; j++) {
